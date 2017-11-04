@@ -11,8 +11,33 @@ class UnitsTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('units')->insert([
-            'name' => 'km'
-        ]);
+        $units = [
+            [
+                'name' => 'Kilometre',
+                'unit_system' => 'metric',
+                'type' => 'length',
+                'symbol' => 'km'
+            ],
+            [
+                'name' => 'Kilogram',
+                'unit_system' => 'metric',
+                'type' => 'weigth',
+                'symbol' => 'kg'
+            ],
+            [
+                'name' => 'Day',
+                'unit_system' => 'astronomical',
+                'type' => 'time',
+                'symbol' => 'd'
+            ],
+            [
+                'name' => 'Year',
+                'unit_system' => 'astronomical',
+                'type' => 'time',
+                'symbol' => 'yr'
+            ]
+        ];
+
+        DB::table('units')->insert($units);
     }
 }
