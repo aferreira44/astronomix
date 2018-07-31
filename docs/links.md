@@ -22,6 +22,7 @@ http://astrobin.com
 ## Organizations
 
 https://www.nasa.gov/
+http://carlsaganinstitute.org/
 https://www.iau.org/
 http://www.astro4dev.org/
 http://www.ras.org.uk/
@@ -50,6 +51,7 @@ https://www.space.com
 https://en.wikipedia.org/wiki/Portal:Astronomy
 http://www.skyandtelescope.com/
 http://www.seasky.org/
+https://www.universetoday.com
 
 ## Education
 

@@ -8,6 +8,8 @@
 - ISS
 - Astronomia Observacional
 - Astronomia Teórica
+- Leis de Kepler
+- Oblate Spheroid
 
 ## Units
 

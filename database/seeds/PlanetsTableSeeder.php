@@ -14,16 +14,26 @@ class PlanetsTableSeeder extends Seeder
     {
         DB::table('planets')->insert([
             'name' => 'Earth',
-            'meanRadius' => 6371, // km
-            'equatorialRadius' => 6378.1370, // km
-            'polarRadius' => 6356.7523, // km
-            'equatorialCircumference' => 40075, // km
-            'meridionalCircumference' => 40009,
-            'mass' => 5.9722 * pow(10, 24), // kg
-            'periapsis' => 152.10 * pow(10, 6), // km
-            'apoapsis' => 147.10 * pow(10, 6), // km
-            'orbitalPeriod' => 1, // years;
-            'rotationPeriod' => 0.99726968, // days
+            'mean_radius' => 6371,
+            'mean_radius_unit' => 1,
+            'equatorial_radius' => 6378.1370,
+            'equatorial_radius_unit' => 1,
+            'polar_radius' => 6356.7523,
+            'polar_radius_unit' => 1,
+            'equatorial_circumference' => 40075,
+            'equatorial_circumference_unit' => 1,
+            'meridional_circumference' => 40009,
+            'meridional_circumference_unit' => 1,
+            'mass' => 5.9722 * pow(10, 24),
+            'mass_unit' => 2,
+            'periapsis' => 152.10 * pow(10, 6),
+            'periapsis_unit' => 1,
+            'apoapsis' => 147.10 * pow(10, 6),
+            'apoapsis_unit' => 1,
+            'orbital_period' => 1,
+            'orbital_period_unit' => 4,
+            'rotation_period' => 0.99726968,
+            'rotation_period_unit' => 3,
             'rings' => false,
             'atmosphere' => 'N2 O2 Ar',
             'created_at' => Carbon::now(),

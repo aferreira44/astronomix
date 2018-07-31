@@ -1,9 +1,14 @@
+# Models
+
+- Planet (name, compositionType, massType, orbitalType, diameter, mass, orbitalRay, orbitalPeriod, rotationPeriod, Satellites, rings, atmosphere)
+  - [](https://en.wikipedia.org/wiki/List_of_planet_types)
+  - [](https://pt.wikipedia.org/wiki/Planeta)
+
 Body
 Object
 Corpo Menor
 
 Sistema Planetário
-Planeta
 Planetas Anões
 Exoplaneta
 
